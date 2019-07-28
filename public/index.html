@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>코드 맛집</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<h1 class="title">Code Editor</h1>
+	<div class="main">
+		<div class="code-style">
+
+		</div>
+		<div class="recommend-var">
+			<div class="recommend-var-form">
+				<form action="/" id="var_form">
+					<input type="text" placeholder="index" id="var_txt">
+					<input type="button" value="ENTER" id="var_send_btn">
+				</form>
+			</div>
+			<div class="recommend-var-keyword">
+				<span style="color: red;">Keyword</span><br><span id="recommend-var-keyword-value"></span>
+			</div>
+			<div class="recommend-var-suggest">
+				<span style="color: red;">Suggests</span>
+				<div id="recommed-var-suggest-results">
+
+				</div>
+			</div>
+		</div>
+		<div class="evaluate-code">
+		</div>
+	</div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,49 @@
+html, body {
+    height: 800px;
+    margin: 0 auto;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 30px;
+    grid-template-rows: 3fr 1fr;
+    grid-row-gap: 20px;
+    height: 100%;
+}
+
+.code-style {
+    border: 1px solid black;
+    grid-row: span 2;
+}
+
+.recommend-var {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.recommend-var-form {
+
+}
+
+.recommend-var-keyword {
+
+}
+
+.recommend-var-keyword-value {
+
+}
+
+.recommend-var-suggest {
+
+}
+
+.recommed-var-suggest-results {
+
+}
+
+.evaluate-code {
+    border: 1px solid black;
+
+}
